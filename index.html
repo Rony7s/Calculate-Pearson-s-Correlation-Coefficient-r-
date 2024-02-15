@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Pearson’s Correlation Coefficient Formula">
+    <meta name="keywords" content="PPMCC, PCC, Formula, BDU, Rony Ahmmed EdTech-BDU">
+    <meta name="author" content="Md. Rony Ahmmed Shah">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="">
+    <title>Pearson's PPMCC</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Educational Measurement and Evaluation</h1>
+        <h3>How To... Calculate Pearson's Correlation Coefficient (r)</h3>
+        <p>Pearson's Product Moment Correlation Coefficient, r</p>
+        
+        <div class="explanation">
+            <img src="img/formula01.png" alt="" srcset="" width="300px">
+            
+            <ul class="explanation-txt">
+                <p>Where:</p>
+                <li><span class="subscript">r</span> is the Pearson correlation coefficient.</li>
+                <li><span class="subscript">xi</span> and <span class="subscript">yi</span> are the individual data points in the datasets <span class="subscript">x</span> and <span class="subscript">y</span>, respectively.</li>
+                <li><span class="subscript">ˉxˉ</span> and <span class="subscript">ˉyˉ</span> are the means of datasets <span class="subscript">x</span> and <span class="subscript">y</span>, respectively.</li>
+            </ul>
+        </div>
+       
+        <div class="input-box">
+            <!-- Enter data x1, x2, x3 ... -->
+            <label id="col_x_text" for="col_x_value">Enter value x:</label>
+            <input type="number" id="col_x_value" value="0">
+            <!-- Enter data y1, y2, y3 ... -->
+            <label id="col_y_text" for="col_y_value">Enter value y:</label>
+            <input type="number" id="col_y_value" value="0">
+            <!-- button Next Result and Restart-->
+            <button onclick="next()"  class="button button1">Add Next</button>
+            <button onclick="result()"  class="button button2">Result</button>
+            <a id="restart"href=""  class="button button3">Restart</a>
+        </div> 
+        <!-- result show -->
+        <div id="reasult_area">Display: </div>
+        <!-- Table for all information -->
+        <div id="myTable"></div>
+        <br><br><br>
+        <h2>Rony Ahmmed EdTech-BDU</h2>
+    </div>
+    <!--link javascript file -->
+   
+    <script src="javascript.js"></script>
+</body>
+</html>
